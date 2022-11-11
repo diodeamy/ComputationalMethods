@@ -1,13 +1,8 @@
 digraph Tree {
-node [shape=box, fontname="helvetica"] ;
-edge [fontname="helvetica"] ;
-0 [label="sweetness_normal <= -0.184\nentropy = 1.582\nvalue = [44, 46, 39]"] ;
-1 [label="entropy = 0.787\nvalue = [0, 12, 39]"] ;
+node [shape=box] ;
+0 [label="E_normal <= -0.036\nentropy = 1.0\nvalue = [3099, 3029]"] ;
+1 [label="entropy = 0.672\nvalue = [2983, 639]"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label="acidity_normal <= -0.062\nentropy = 0.988\nvalue = [44, 34, 0]"] ;
+2 [label="entropy = 0.27\nvalue = [116, 2390]"] ;
 0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
-3 [label="entropy = 0.0\nvalue = [0, 31, 0]"] ;
-2 -> 3 ;
-4 [label="entropy = 0.342\nvalue = [44, 3, 0]"] ;
-2 -> 4 ;
 }
